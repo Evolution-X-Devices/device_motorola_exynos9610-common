@@ -11,6 +11,9 @@ import /vendor/etc/init/carrier/init.default.rc
 # End IKSWQ-7064
 
 on early-init
+    # Workarround for cache
+    rm /data/resource-cache
+    rm /data/system/package_cache
 
 on init
     # Initialize cpusets to boot-time values
