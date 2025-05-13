@@ -153,6 +153,10 @@ PRODUCT_PACKAGES += \
 
 $(call soong_config_set,libfmjni,vendor,slsi)
 
+# GApps
+WITH_GMS := true
+TARGET_USES_PICO_GAPPS := true
+
 # Gatekeeper
 PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0.vendor \
