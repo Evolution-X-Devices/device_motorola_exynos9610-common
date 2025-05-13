@@ -171,11 +171,6 @@ PRODUCT_PACKAGES += \
     libgatekeeper.vendor \
     gatekeeper.exynos9610
 
-# GMS
-ifeq ($(WITH_GMS),true)
-GMS_MAKEFILE=gms_minimal.mk
-endif
-
 # GPS
 PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/configs/gps/gps.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/gps.cfg
