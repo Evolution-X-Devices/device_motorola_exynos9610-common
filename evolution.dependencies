@@ -1,0 +1,102 @@
+[
+    {
+        "repository": "LineageOS/android_device_samsung_slsi_sepolicy",
+        "target_path": "device/samsung_slsi/sepolicy",
+        "remote": "github-non-los",
+        "branch": "lineage-23.2"
+    },
+    {
+        "repository": "hardware_motorola",
+        "target_path": "hardware/motorola",
+        "remote": "evo-devices"
+    },
+    {
+        "repository": "LineageOS/android_hardware_samsung",
+        "target_path": "hardware/samsung",
+        "remote": "github-non-los",
+        "branch": "lineage-23.2"
+    },
+    {
+        "repository": "LineageOS/android_hardware_samsung_slsi_fm",
+        "target_path": "hardware/samsung_slsi/fm",
+        "remote": "github-non-los",
+        "branch": "lineage-23.2"
+    },
+    {
+        "repository": "LineageOS/android_hardware_samsung_slsi_libbt",
+        "target_path": "hardware/samsung_slsi/libbt",
+        "remote": "github-non-los",
+        "branch": "lineage-23.2"
+    },
+    {
+        "repository": "LineageOS/android_hardware_samsung_slsi_nfc",
+        "target_path": "hardware/samsung_slsi/nfc",
+        "remote": "github-non-los",
+        "branch": "lineage-23.2"
+    },
+    {
+        "repository": "LineageOS/android_hardware_samsung_slsi-linaro_camera",
+        "target_path": "hardware/samsung_slsi-linaro/camera",
+        "remote": "github-non-los",
+        "branch": "lineage-23.2"
+    },
+    {
+        "repository": "LineageOS/android_hardware_samsung_slsi-linaro_config",
+        "target_path": "hardware/samsung_slsi-linaro/config",
+        "remote": "github-non-los",
+        "branch": "lineage-23.2"
+    },
+    {
+        "repository": "LineageOS/android_hardware_samsung_slsi-linaro_exynos",
+        "target_path": "hardware/samsung_slsi-linaro/exynos",
+        "remote": "github-non-los",
+        "branch": "lineage-23.2"
+    },
+    {
+        "repository": "LineageOS/android_hardware_samsung_slsi-linaro_exynos5",
+        "target_path": "hardware/samsung_slsi-linaro/exynos5",
+        "remote": "github-non-los",
+        "branch": "lineage-23.2"
+    },
+    {
+        "repository": "LineageOS/android_hardware_samsung_slsi-linaro_graphics",
+        "target_path": "hardware/samsung_slsi-linaro/graphics",
+        "remote": "github-non-los",
+        "branch": "lineage-23.2"
+    },
+    {
+        "repository": "LineageOS/android_hardware_samsung_slsi-linaro_interfaces",
+        "target_path": "hardware/samsung_slsi-linaro/interfaces",
+        "remote": "github-non-los",
+        "branch": "lineage-23.2"
+    },
+    {
+        "repository": "LineageOS/android_hardware_samsung_slsi-linaro_openmax",
+        "target_path": "hardware/samsung_slsi-linaro/openmax",
+        "remote": "github-non-los",
+        "branch": "lineage-23.2"
+    },
+    {
+        "repository": "LineageOS/android_hardware_samsung_slsi_scsc_wifibt_wifi_hal",
+        "target_path": "hardware/samsung_slsi/scsc_wifibt/wifi_hal",
+        "remote": "github-non-los",
+        "branch": "lineage-23.2"
+    },
+    {
+        "repository": "LineageOS/android_hardware_samsung_slsi_scsc_wifibt_wpa_supplicant_lib",
+        "target_path": "hardware/samsung_slsi/scsc_wifibt/wpa_supplicant_lib",
+        "remote": "github-non-los",
+        "branch": "lineage-23.2"
+    },
+    {
+        "repository": "kernel_motorola_exynos9610",
+        "target_path": "kernel/motorola/exynos9610",
+        "remote": "evo-devices"
+    },
+    {
+        "repository": "Deivid-21s-Sources/proprietary_vendor_motorola_exynos9610-common",
+        "target_path": "vendor/motorola/exynos9610-common",
+        "remote": "github-non-los",
+        "branch": "lineage-23.2"
+    }
+]
