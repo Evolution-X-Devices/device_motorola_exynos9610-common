@@ -14,6 +14,7 @@ AB_OTA_UPDATER := true
 AB_OTA_PARTITIONS += \
     boot \
     dtbo \
+    odm \
     system \
     vbmeta \
     vendor
@@ -61,8 +62,10 @@ BOARD_DTBO_CFG := $(COMMON_PATH)/configs/dtboimg.cfg
 BOARD_KERNEL_SEPARATED_DTBO  := true
 
 ## Filesystem
+BOARD_ODMIMAGE_FILE_SYSTEM_TYPE := erofs
 BOARD_SYSTEMIMAGE_FILE_SYSTEM_TYPE := erofs
 BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE := erofs
+TARGET_COPY_OUT_ODM := odm
 TARGET_COPY_OUT_VENDOR := vendor
 TARGET_FS_CONFIG_GEN += $(COMMON_PATH)/config.fs
 TARGET_USERIMAGES_USE_EXT4 := true
